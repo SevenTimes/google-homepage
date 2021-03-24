@@ -1,0 +1,39 @@
+html,
+body {
+  height: 100%;
+  background-color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.header-links li {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  vertical-align: middle;
+  float: right;
+  height: 48px;
+  justify-content: flex-end;
+}
+
+#sign-in {
+  background-color: rgb(26, 115, 232);
+  color: white;
+  min-width: 96px;
+  padding: 9px 15px;
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  border-radius: 4px;
+  border-color: rgba(0, 0, 0, 0);
+}
